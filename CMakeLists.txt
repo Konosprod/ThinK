@@ -73,7 +73,7 @@
   
   install(
     TARGETS
-        THINK
+        think
     RUNTIME DESTINATION
         ${CMAKE_INSTALL_PREFIX}/bin
 )
