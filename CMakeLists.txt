@@ -65,11 +65,11 @@
   INCLUDE_DIRECTORIES( ${CMAKE_BINARY_DIR} )
   
   # here we instruct CMake to build "THINK" executable from all of the source files
-  ADD_EXECUTABLE( THINK ${THINK_SRCS} ${THINK_MOC_SRCS} ${THINK_RC_SRCS} ${THINK_UI_HDRS} )
+  ADD_EXECUTABLE( think ${THINK_SRCS} ${THINK_MOC_SRCS} ${THINK_RC_SRCS} ${THINK_UI_HDRS} )
   
   # last thing we have to do is to tell CMake what libraries our executable needs,
   # luckily FIND_PACKAGE prepared QT_LIBRARIES variable for us:
-  TARGET_LINK_LIBRARIES( THINK ${QT_LIBRARIES})
+  TARGET_LINK_LIBRARIES( think ${QT_LIBRARIES})
   
   install(
     TARGETS
