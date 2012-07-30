@@ -77,7 +77,14 @@
     <addaction name="separator"/>
     <addaction name="actionMini"/>
    </widget>
+   <widget class="QMenu" name="menuEdition">
+    <property name="title">
+     <string>Edition</string>
+    </property>
+    <addaction name="actionPreferences"/>
+   </widget>
    <addaction name="menuFichier"/>
+   <addaction name="menuEdition"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="acToHTML">
@@ -113,6 +120,11 @@
   <action name="actionMini">
    <property name="text">
     <string>Mini</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Préférence</string>
    </property>
   </action>
  </widget>

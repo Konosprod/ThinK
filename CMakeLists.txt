@@ -11,6 +11,7 @@
     mainwindow.cpp
     categorywindow.cpp
     notewindow.cpp
+    preferencewindow.cpp
   )
   
   # another list, this time it includes all header files that should be treated with moc
@@ -18,6 +19,7 @@
     mainwindow.h
     categorywindow.h
     notewindow.h
+    preferencewindow.h
   )
   
     SET( THINK_RCS
@@ -27,6 +29,7 @@
           mainwindow.ui
           categorywindow.ui
           notewindow.ui
+          preferencewindow.ui
   )
   
   set(EXECUTABLE_OUTPUT_PATH ${THINK_SOURCE_DIR})
